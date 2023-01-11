@@ -1,0 +1,30 @@
+info 2023-01-11T14:36:55.342Z - starting server
+error 2023-01-11T14:36:57.032Z - Error: Cannot find module '../../app-errors'
+Require stack:
+- /Users/gaston.rey/dev/projects/pokemons-project/logic/find-pokemons.js
+- /Users/gaston.rey/dev/projects/pokemons-project/logic/index.js
+- /Users/gaston.rey/dev/projects/pokemons-project/routes/api/handlers/handle-register-user.js
+- /Users/gaston.rey/dev/projects/pokemons-project/routes/api/handlers/index.js
+- /Users/gaston.rey/dev/projects/pokemons-project/routes/api/index.js
+- /Users/gaston.rey/dev/projects/pokemons-project/routes/index.js
+- /Users/gaston.rey/dev/projects/pokemons-project/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/gaston.rey/dev/projects/pokemons-project/logic/find-pokemons.js:1:29)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/gaston.rey/dev/projects/pokemons-project/logic/index.js:7:19)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+info 2023-01-11T14:36:57.040Z - stopping server
+info 2023-01-11T14:39:08.662Z - starting server
+info 2023-01-11T14:39:12.514Z - server running on port 4000
+info 2023-01-11T14:51:21.214Z - stopping server
