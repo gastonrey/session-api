@@ -7,7 +7,7 @@ const { cors } = require("app-middlewares");
 
 const {
   env: { PORT, MONGODB_URL },
-  argv: [, , port = PORT || 8080],
+  argv: [, , port = PORT || 3000],
 } = process;
 
 logger.log("starting server", "info");
